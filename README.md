@@ -25,6 +25,7 @@ The tool ensures VINs are generated according to the given model and Variant wis
 **Overview:-**
 
 1) Two Excel Workbooks are attached with this Project.
+
    a) MODEL_INFORMATION --> This sheet consists the all model wise data related to VIN Structures. This workbook has 7 different sheets, every sheets are serving different 
       purposes. (Do not change name of any sheet.)
       ~ Sheet1 (CHESIS_NO) :- Output of above project that is Vehicle Identification number will show in this sheet as per below Format.
@@ -32,6 +33,7 @@ The tool ensures VINs are generated according to the given model and Variant wis
      <img width="394" height="59" alt="image" src="https://github.com/user-attachments/assets/93e986f9-2d26-40ab-ac30-4ddb7c62bdb3" />
      
       Here,
+   
       Date --> It represents for which date you have released the sequence.
    
       Prod_Seq --> It represents the Production sequence number in that month.
@@ -40,7 +42,9 @@ The tool ensures VINs are generated according to the given model and Variant wis
    
       Model --> It represents the Model code.
    
-      Serial_No. --> It represents the Vehicle Identification Number. 
+      Serial_No. --> It represents the Vehicle Identification Number.
+
+      ~ Sheet2(SEQ) --> In this sheet you have to input the sequence 
    
    b) VIN_CREATION_HISTORY --> This sheet maintains the Past VIN Creation history with their time stamp.
 
