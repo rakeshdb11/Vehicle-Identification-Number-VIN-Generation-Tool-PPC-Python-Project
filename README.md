@@ -32,11 +32,14 @@ The tool ensures VINs are generated according to the given model and Variant wis
      <img width="394" height="59" alt="image" src="https://github.com/user-attachments/assets/93e986f9-2d26-40ab-ac30-4ddb7c62bdb3" />
      
       Here,
-   
       Date --> It represents for which date you have released the sequence.
+   
       Prod_Seq --> It represents the Production sequence number in that month.
+   
       Job_No --> It represents internal job ID that is allocated to particular VIN for internal tracking.
+   
       Model --> It represents the Model code.
+   
       Serial_No. --> It represents the Vehicle Identification Number. 
    
    b) VIN_CREATION_HISTORY --> This sheet maintains the Past VIN Creation history with their time stamp.
