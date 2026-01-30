@@ -1,0 +1,2 @@
+# Vehicle-Identification-Number-VIN-Generation-Tool-PPC-Python-Project
+This project develops a Python-based VIN generation tool for automobile industry. A Vehicle Identification Number (VIN) is a globally recognized code that uniquely identifies each vehicle. For automobile industry, VINs are critical for manufacturing records, etc. The tool ensures VINs are generated according to the given model wise structure.
