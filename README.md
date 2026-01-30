@@ -17,6 +17,10 @@ The tool ensures VINs are generated according to the given model and Variant wis
     - Helps track manufacturing batches and assembly line details.
     - Ensures traceability for quality control, warranty claims, and recalls
 6) PREFIX --> In the context of a Vehicle Identification Number (VIN), the term “prefix” usually refers to the starting characters of the VIN, that will same for EVery VIN of that particular Model.
+7) MONTH_CODE --> It represents the Month in which Vehicle VIN is Created, Sometimes this code will vary model to model.
+   same month has different month_code for different models, you have to maintain month code of all models.
+8) YEAR_CODE -->  It represents the Year in which Vehicle VIN is Created, Sometimes this code will vary model to model.
+   same Year has different Year_code for different models, you have to maintain Year code of all models.
    
 
 
