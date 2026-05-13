@@ -1,4 +1,4 @@
-<img width="190" height="58" alt="image" src="https://github.com/user-attachments/assets/a3abe50f-ee5b-41c2-b8df-18ce49ae19c2" /># Vehicle-Identification-Number-VIN-Generation-Tool-PPC-Python-Project
+# Vehicle-Identification-Number-VIN-Generation-Tool-PPC-Python-Project
 
 **Description** This project develops a Python-based VIN generation tool for automobile industry. A Vehicle Identification Number (VIN) is a globally recognized code that uniquely identifies each vehicle. For automobile industry, VINs are critical for manufacturing records, regulatory compliance, warranty tracking, and fleet management.
 The tool ensures VINs are generated according to the given model and Variant wise structure.
@@ -49,7 +49,7 @@ The tool ensures VINs are generated according to the given model and Variant wis
    
 <img width="190" height="58" alt="image" src="https://github.com/user-attachments/assets/6f9a66ec-b2a1-43e0-806c-8c47b32ec706" />
 
-      **--> Sheet2(SEQ)** -->  In this sheet you have to maintain the Structure of VIN against of each model code. this sheet works as a model master maintenaince for VIN Creation.
+      **--> Sheet3(MODEL)** -->  In this sheet you have to maintain the Structure of VIN against of each model code. this sheet works as a model master maintenaince for VIN Creation.
 
 <img width="892" height="111" alt="image" src="https://github.com/user-attachments/assets/6b0e1c74-ec74-4708-b0b0-a7b0fb1ee702" />
 
@@ -68,10 +68,22 @@ Here,
 12) JOB_CODE --> As explained earlier job code is the internal tracking code to hold/release the lot and particular VIN in case of any abnormality. this has also some uniqueness that will change model to model. in this column you have to maintain that unique JOB code.
 13) LAST_JOB_NO.--> It represents the last job no that was created in last VIN Creation cycle against all models.
 
+**--> Sheet4 (MONTH_CODE)**
+In this sheet you have to maintain the Group wise Month code, As per below Image.
+
+<img width="737" height="106" alt="image" src="https://github.com/user-attachments/assets/497aaa1a-84cd-4460-8ca8-2ed3bdf6ec8f" />
 
 
-   b) VIN_CREATION_HISTORY --> This sheet maintains the Past VIN Creation history with their time stamp.
+**Sheet5 (YEAR_CODE)** -->
+In this sheet you have to maintain the Group wise Year code, As per below Image.
 
+<img width="304" height="90" alt="image" src="https://github.com/user-attachments/assets/05758740-4834-41dd-af57-8eb9d9e9c0d0" />
+
+**Sheet5 & 6 (ISO Letter and digit)** --> This sheet is used to calculate the check digit, it is unique and decided by company.
+
+   b) VIN_CREATION_HISTORY --> This sheet maintains the Past VIN Creation history with their time stamp. To ensure their is no duplicacy in VIN NO. , JOB NO. AND PRODUCTION SEQUENCE.
+
+![Uploading image.png…]()
 
    
    
