@@ -54,19 +54,19 @@ The tool ensures VINs are generated according to the given model and Variant wis
 <img width="892" height="111" alt="image" src="https://github.com/user-attachments/assets/6b0e1c74-ec74-4708-b0b0-a7b0fb1ee702" />
 
 Here, 
-MODEL_NAME --> You have to input here, the sales name of that particular model or variant.
-MODEL_CODE --> You have to enter the model code of that particular model that company are using for internal tracking or system transactions.
-PREFIX --> This is the part of VIN Structure of that model, you have to enter those letter/ digits in this field that will  use in every single unit production of that model and will not change.
-CHECK_DIGIT --> This is the check digit that maximum companies are using it to safequard the unqiueness of that particular VIN, and this digit will calculated by formula that you will maintained in code base and this unique for every VIN.
-STRUCTURE_1 --> In Structure_1 various methodology is used to define structure and it will varry model to model structure. In some model it is Production Month_code of that model and in some it is Production Year Code and some leaves as blank or hyphen.
-STRUCTURE_2 --> It is same as Structure 1, if there is month code in structure_1 then structure_2 is year code or vice-versa.
-STRUCTURE_3 --> It is same as Structure 1 and 2,, all there structure are sharing three information month code, year code and one special digit/ character.
-STRUCTURE_4 --> It represents the serial no. series of that model.
-START_SERIAL_NO --> It gives the information, what will be the serial no. of first unit if that particular model.
-SERIAL_NO_GROUP_NAME --> Some model has same serial number series but different VIN Structure for that we have to create the group methodology for all those model that are sharing the same serial number series. all model that are in same group will share same series.
-LAST_SERIAL_NO --> It represent that last serial number against the GROUP_NAME that was in last VIN Creation cycle.
-JOB_CODE --> As explained earlier job code is the internal tracking code to hold/release the lot and particular VIN in case of any abnormality. this has also some uniqueness that will change model to model. in this column you have to maintain that unique JOB code.
-LAST_JOB_NO.--> It represents the last job no that was created in last VIN Creation cycle against all models.
+1) MODEL_NAME --> You have to input here, the sales name of that particular model or variant.
+2) MODEL_CODE --> You have to enter the model code of that particular model that company are using for internal tracking or system transactions.
+3) PREFIX --> This is the part of VIN Structure of that model, you have to enter those letter/ digits in this field that will  use in every single unit production of that model and will not change.
+4) CHECK_DIGIT --> This is the check digit that maximum companies are using it to safequard the unqiueness of that particular VIN, and this digit will calculated by formula that you will maintained in code base and this unique for every VIN.
+5) STRUCTURE_1 --> In Structure_1 various methodology is used to define structure and it will varry model to model structure. In some model it is Production Month_code of that model and in some it is Production Year Code and some leaves as blank or hyphen.
+6) STRUCTURE_2 --> It is same as Structure 1, if there is month code in structure_1 then structure_2 is year code or vice-versa.
+7) STRUCTURE_3 --> It is same as Structure 1 and 2,, all there structure are sharing three information month code, year code and one special digit/ character.
+8) STRUCTURE_4 --> It represents the serial no. series of that model.
+9) START_SERIAL_NO --> It gives the information, what will be the serial no. of first unit if that particular model.
+10) SERIAL_NO_GROUP_NAME --> Some model has same serial number series but different VIN Structure for that we have to create the group methodology for all those model that are sharing the same serial number series. all model that are in same group will share same series.
+11) LAST_SERIAL_NO --> It represent that last serial number against the GROUP_NAME that was in last VIN Creation cycle.
+12) JOB_CODE --> As explained earlier job code is the internal tracking code to hold/release the lot and particular VIN in case of any abnormality. this has also some uniqueness that will change model to model. in this column you have to maintain that unique JOB code.
+13) LAST_JOB_NO.--> It represents the last job no that was created in last VIN Creation cycle against all models.
 
 
 
