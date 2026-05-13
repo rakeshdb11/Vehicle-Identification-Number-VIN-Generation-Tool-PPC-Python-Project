@@ -1,4 +1,4 @@
-# Vehicle-Identification-Number-VIN-Generation-Tool-PPC-Python-Project
+<img width="190" height="58" alt="image" src="https://github.com/user-attachments/assets/a3abe50f-ee5b-41c2-b8df-18ce49ae19c2" /># Vehicle-Identification-Number-VIN-Generation-Tool-PPC-Python-Project
 
 **Description** This project develops a Python-based VIN generation tool for automobile industry. A Vehicle Identification Number (VIN) is a globally recognized code that uniquely identifies each vehicle. For automobile industry, VINs are critical for manufacturing records, regulatory compliance, warranty tracking, and fleet management.
 The tool ensures VINs are generated according to the given model and Variant wise structure.
@@ -28,9 +28,10 @@ The tool ensures VINs are generated according to the given model and Variant wis
 
    a) MODEL_INFORMATION --> This sheet consists the all model wise data related to VIN Structures. This workbook has 7 different sheets, every sheets are serving different 
       purposes. (Do not change name of any sheet.)
-      ~ Sheet1 (CHESIS_NO) :- Output of above project that is Vehicle Identification number will show in this sheet as per below Format.
    
-     <img width="394" height="59" alt="image" src="https://github.com/user-attachments/assets/93e986f9-2d26-40ab-ac30-4ddb7c62bdb3" />
+      **--> Sheet1 (CHESIS_NO)** :- Output of above project that is Vehicle Identification number will show in this sheet as per below Format.
+   
+   <img width="428" height="60" alt="image" src="https://github.com/user-attachments/assets/a03b2cf9-2811-4942-9300-77e3e8ecf1ee" />
      
       Here,
    
@@ -44,8 +45,31 @@ The tool ensures VINs are generated according to the given model and Variant wis
    
       Serial_No. --> It represents the Vehicle Identification Number.
 
-      ~ Sheet2(SEQ) --> In this sheet you have to input the sequence 
+      **--> Sheet2(SEQ)** --> In this sheet you have to input the sequence of Model code with qty and date for VIN / JOB and Production sequence No. creation.
    
+<img width="190" height="58" alt="image" src="https://github.com/user-attachments/assets/6f9a66ec-b2a1-43e0-806c-8c47b32ec706" />
+
+      **--> Sheet2(SEQ)** -->  In this sheet you have to maintain the Structure of VIN against of each model code. this sheet works as a model master maintenaince for VIN Creation.
+
+<img width="892" height="111" alt="image" src="https://github.com/user-attachments/assets/6b0e1c74-ec74-4708-b0b0-a7b0fb1ee702" />
+
+Here, 
+MODEL_NAME --> You have to input here, the sales name of that particular model or variant.
+MODEL_CODE --> You have to enter the model code of that particular model that company are using for internal tracking or system transactions.
+PREFIX --> This is the part of VIN Structure of that model, you have to enter those letter/ digits in this field that will  use in every single unit production of that model and will not change.
+CHECK_DIGIT --> This is the check digit that maximum companies are using it to safequard the unqiueness of that particular VIN, and this digit will calculated by formula that you will maintained in code base and this unique for every VIN.
+STRUCTURE_1 --> In Structure_1 various methodology is used to define structure and it will varry model to model structure. In some model it is Production Month_code of that model and in some it is Production Year Code and some leaves as blank or hyphen.
+STRUCTURE_2 --> It is same as Structure 1, if there is month code in structure_1 then structure_2 is year code or vice-versa.
+STRUCTURE_3 --> It is same as Structure 1 and 2,, all there structure are sharing three information month code, year code and one special digit/ character.
+STRUCTURE_4 --> It represents the serial no. series of that model.
+START_SERIAL_NO --> It gives the information, what will be the serial no. of first unit if that particular model.
+SERIAL_NO_GROUP_NAME --> Some model has same serial number series but different VIN Structure for that we have to create the group methodology for all those model that are sharing the same serial number series. all model that are in same group will share same series.
+LAST_SERIAL_NO --> It represent that last serial number against the GROUP_NAME that was in last VIN Creation cycle.
+JOB_CODE --> As explained earlier job code is the internal tracking code to hold/release the lot and particular VIN in case of any abnormality. this has also some uniqueness that will change model to model. in this column you have to maintain that unique JOB code.
+LAST_JOB_NO.--> It represents the last job no that was created in last VIN Creation cycle against all models.
+
+
+
    b) VIN_CREATION_HISTORY --> This sheet maintains the Past VIN Creation history with their time stamp.
 
 
