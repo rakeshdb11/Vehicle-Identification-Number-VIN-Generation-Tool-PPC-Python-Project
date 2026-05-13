@@ -83,7 +83,9 @@ In this sheet you have to maintain the Group wise Year code, As per below Image.
 
    b) VIN_CREATION_HISTORY --> This sheet maintains the Past VIN Creation history with their time stamp. To ensure their is no duplicacy in VIN NO. , JOB NO. AND PRODUCTION SEQUENCE.
 
-![Uploading image.png…]()
+
+
+
 
    
    
